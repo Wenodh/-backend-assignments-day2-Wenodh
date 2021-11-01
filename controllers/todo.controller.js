@@ -39,7 +39,7 @@ exports.getAllTodo = async (req, res) => {
             condition.completed = completed;
         }
         let options = {
-            sort: { createdAt: -1 },
+            sort: { addedAt: -1 },
         };
         const { limit, offset } = getPagination(page, size);
         const todo = await Todo.paginate(condition, { offset, limit, options });
