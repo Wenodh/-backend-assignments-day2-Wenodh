@@ -1,0 +1,32 @@
+{
+    "name": "-backend-assignments-day2-Wenodh",
+    "version": "1.0.0",
+    "description": "- In the existing APIs that you have created in day 1, add filters to the todo list\r - Get all todo list should be able to have additional filters to :\r - fetch by category\r - search by title\r - Add capability to sort the data by created_at\r - Add api to mark Todo as done, can you use an exisiting api to achieve this?",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js",
+        "dev": "nodemon server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Wenodh/-backend-assignments-day2-Wenodh.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Wenodh/-backend-assignments-day2-Wenodh/issues"
+    },
+    "homepage": "https://github.com/Wenodh/-backend-assignments-day2-Wenodh#readme",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^10.0.0",
+        "express": "^4.17.1",
+        "mongoose": "^6.0.12",
+        "mongoose-paginate-v2": "^1.4.2"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.14"
+    }
+}
